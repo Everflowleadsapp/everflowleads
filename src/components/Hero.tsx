@@ -33,7 +33,7 @@ const Hero = () => {
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
             EverFlowLeads helps UK businesses generate consistent, high-quality leads automatically. 
-            Focus on what you do best - delivering results - while we handle your lead generation with advanced AI.
+            Focus on what you do best - delivering results - while we handle your lead generation with advanced AI Technology.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
