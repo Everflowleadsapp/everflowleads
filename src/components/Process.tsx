@@ -3,23 +3,23 @@ const Process = () => {
   const steps = [
     {
       step: "01",
-      title: "AI Analysis",
-      description: "Our AI analyzes your ideal customer profile and market positioning to create targeted lead generation strategies."
+      title: "Facebook Ad Campaigns",
+      description: "We create and manage high-converting Facebook ad campaigns targeted to your ideal customers, generating consistent lead flow daily."
     },
     {
       step: "02", 
-      title: "Multi-Channel Outreach",
-      description: "Automated campaigns across email, LinkedIn, and other channels to reach prospects where they are most active."
+      title: "AI Appointment Setting",
+      description: "Our AI bot instantly reaches out to new leads, engaging them in natural conversations and qualifying their interest level."
     },
     {
       step: "03",
       title: "Lead Qualification", 
-      description: "Advanced AI qualification ensures only warm, high-intent prospects make it to your calendar."
+      description: "Advanced AI qualification ensures only warm, high-intent prospects make it through our screening process."
     },
     {
       step: "04",
-      title: "Seamless Handoff",
-      description: "Qualified leads are delivered directly to your CRM with complete context and next-step recommendations."
+      title: "Calendar Booking",
+      description: "Qualified leads are automatically booked directly into your calendar with complete context and preparation notes."
     }
   ];
 
@@ -33,7 +33,7 @@ const Process = () => {
             How It Works
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Our streamlined process ensures you get qualified leads without the hassle of manual prospecting.
+            Our streamlined process combines Facebook advertising with AI automation to deliver qualified appointments.
           </p>
         </div>
         

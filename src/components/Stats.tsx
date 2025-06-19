@@ -2,19 +2,19 @@
 const Stats = () => {
   const stats = [
     {
-      number: "300+",
-      label: "UK Businesses Served",
-      description: "Growing companies trust us"
+      number: "73%",
+      label: "Of Businesses Struggle",
+      description: "To generate consistent leads"
     },
     {
-      number: "45",
-      label: "Average Leads/Month",
-      description: "Consistent, qualified prospects"
+      number: "3.2x",
+      label: "Higher Conversion Rate",
+      description: "With AI-qualified leads"
     },
     {
       number: "89%",
-      label: "Lead-to-Customer Rate",
-      description: "High-quality conversions"
+      label: "Of Leads Go Uncontacted",
+      description: "Within the critical first hour"
     },
     {
       number: "24/7",
@@ -30,10 +30,10 @@ const Stats = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-            Results That Speak Volumes
+            The Lead Generation Challenge
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Our AI-driven approach delivers measurable results for UK businesses across various industries.
+            Most UK businesses struggle with inconsistent lead flow. Here's what the data shows.
           </p>
         </div>
         
