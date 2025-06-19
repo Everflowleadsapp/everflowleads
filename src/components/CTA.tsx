@@ -1,18 +1,6 @@
-
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { useState } from "react";
 
 const CTA = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Email submitted:", email);
-    // Here you would typically send the email to your backend
-    setEmail("");
-  };
-
   return (
     <section className="py-24 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 relative overflow-hidden">
       {/* Background effects */}
@@ -26,7 +14,7 @@ const CTA = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-            Ready to Get More Leads Each Month?
+            Ready to Get 10-15 New Booked Appointments Each Month?
           </h2>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
@@ -40,23 +28,21 @@ const CTA = () => {
               Book Your Free Strategy Call Today
             </h3>
             
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <Input
-                type="email"
-                placeholder="Enter your business email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="flex-1 bg-white/10 border-white/20 text-white placeholder:text-white/60 rounded-full px-6 py-3"
-              />
+            <div className="flex justify-center">
               <Button 
-                type="submit"
+                asChild
                 size="lg" 
                 className="bg-white text-gray-900 hover:bg-gray-100 font-bold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl"
               >
-                Book Free Audit
+                <a
+                  href="https://calendly.com/everflowleads/30-min-free-strategy-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Book Free Audit
+                </a>
               </Button>
-            </form>
+            </div>
             
             <p className="text-white/70 text-sm mt-4">
               ✓ 30-minute strategy session ✓ Custom lead generation plan ✓ ROI projections
@@ -86,3 +72,4 @@ const CTA = () => {
 };
 
 export default CTA;
+
