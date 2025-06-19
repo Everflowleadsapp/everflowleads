@@ -13,25 +13,14 @@ const Footer = () => {
               AI-powered lead generation for UK businesses. Transform your sales pipeline with consistent, high-quality leads.
             </p>
             <div className="text-sm text-gray-500">
-              © 2024 EverFlowLeads. All rights reserved.
+              © 2025 EverFlowLeads. All rights reserved.
             </div>
           </div>
-          
-          <div>
-            <h4 className="text-white font-semibold mb-4">Services</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Lead Generation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AI Automation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">CRM Integration</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Analytics & Reporting</a></li>
-            </ul>
-          </div>
-          
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>hello@everflowleads.com</li>
-              <li>+44 (0) 20 7946 0958</li>
+              <li>muhammad@everflowleads.com</li>
+              <li>+44 (0) 79 4679 6666</li>
               <li>London, United Kingdom</li>
             </ul>
           </div>
