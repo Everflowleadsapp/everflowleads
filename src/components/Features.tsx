@@ -13,7 +13,7 @@ const Features = () => {
     {
       icon: CircleArrowUp,
       title: "Consistent Growth",
-      description: "Generate 30-50 qualified leads per month with our proven system. Predictable growth means predictable revenue for your business.",
+      description: "Generate 10-20 qualified leads per month with our proven system. Predictable growth means predictable revenue for your business.",
       gradient: "from-purple-500 to-pink-500"
     },
     {
