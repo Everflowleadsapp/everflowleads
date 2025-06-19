@@ -21,10 +21,14 @@ const Hero = () => {
             <span className="text-white/80 text-sm font-medium">AI-Powered Lead Generation</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent leading-tight">
-            Transform Your Business With
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <span className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
+              Transform Your Business With
+            </span>
             <br />
-            <span className="animate-glow">AI Lead Generation</span>
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+              AI Lead Generation
+            </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
