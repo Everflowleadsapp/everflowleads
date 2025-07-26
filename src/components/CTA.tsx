@@ -14,7 +14,7 @@ const CTA = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-            Ready to Get 10+ New Booked Appointments Each Month?
+            Ready to Get 5+ New Quote-Ready Leads Each Month?
           </h2>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
