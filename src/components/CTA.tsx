@@ -35,7 +35,7 @@ const CTA = () => {
                 className="bg-white text-gray-900 hover:bg-gray-100 font-bold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl"
               >
                 <a
-                  https://tally.so/r/nPJEQP
+                  href="https://tally.so/r/nPJEQP"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
